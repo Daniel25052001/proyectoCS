@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/cmilo/Projects/Restaurant/Restaurant.csproj": {}
+    "C:\\ciberseguridad\\backend\\Restaurant.csproj": {}
   },
   "projects": {
-    "/home/cmilo/Projects/Restaurant/Restaurant.csproj": {
+    "C:\\ciberseguridad\\backend\\Restaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cmilo/Projects/Restaurant/Restaurant.csproj",
+        "projectUniqueName": "C:\\ciberseguridad\\backend\\Restaurant.csproj",
         "projectName": "Restaurant",
-        "projectPath": "/home/cmilo/Projects/Restaurant/Restaurant.csproj",
-        "packagesPath": "/home/cmilo/.nuget/packages/",
-        "outputPath": "/home/cmilo/Projects/Restaurant/obj/",
+        "projectPath": "C:\\ciberseguridad\\backend\\Restaurant.csproj",
+        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+        "outputPath": "C:\\ciberseguridad\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cmilo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,16 +37,19 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[8.0.8, )"
+            },
+            "swashbuckle.aspnetcore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -60,12 +63,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.8, 9.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

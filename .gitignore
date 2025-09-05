@@ -1,0 +1,22 @@
+# VS Code
+.vscode/
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Others
+*.log
+*.cache
+*.tmp

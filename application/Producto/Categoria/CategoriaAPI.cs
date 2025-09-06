@@ -1,27 +1,27 @@
-public class Descripcion{
+public class Categoria{
 
 
-    public Descripcion() { }
+    public Categoria() { }
 
-    public string GetDescripcion()
+    public string GetCategoria()
     {
         // GET METHOD
         return "";
     }
 
-    public string CreateDescripcion()
+    public string CreateCategoria()
     {
         // POST METHOD
         return "";
     }
 
-    public string UpdateDescripcion()
+    public string UpdateCategoria()
     {
         // PUT METHOD
         return "";
     }
 
-    public string DeleteDescripcion()
+    public string DeleteCategoria()
     {
         // DELETE METHOD
         return "";

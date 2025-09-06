@@ -1,8 +1,8 @@
-public class paisModel{
+public class PaisModel{
 
  
 
-    public paisModel() 
+    public PaisModel() 
     {
 
     }

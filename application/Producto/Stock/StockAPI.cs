@@ -1,32 +1,29 @@
-public class Descripcion{
+public class Stock{
 
 
-    public Descripcion() { }
+    public Stock() { }
 
-    public string GetDescripcion()
+    public string GetPrecio()
     {
         // GET METHOD
         return "";
     }
 
-    public string CreateDescripcion()
+    public string CreateStock()
     {
         // POST METHOD
         return "";
     }
 
-    public string UpdateDescripcion()
+    public string UpdateStock()
     {
         // PUT METHOD
         return "";
     }
 
-    public string DeleteDescripcion()
+    public string DeleteStock()
     {
         // DELETE METHOD
         return "";
     }
 }
-
-
-    

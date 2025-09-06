@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-public class Base64Helper
+public class Base64
 {
     /// <summary>
     /// Codifica un array de bytes a Base64.
